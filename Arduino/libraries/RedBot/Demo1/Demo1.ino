@@ -24,9 +24,9 @@ RedBotMotors motor;
 // Instantiate the sensors. Sensors can only be created for analog input
 //  pins; the Xbee software serial uses pins A0 and A1 and the
 //  accelerometer uses pins A4 and A5.
-RedBotSensor lSen = RedBotSensor(A2);
-RedBotSensor cSen = RedBotSensor(A3);
-RedBotSensor rSen = RedBotSensor(A6);
+RedBotSensor lSen = RedBotSensor(A3);
+RedBotSensor cSen = RedBotSensor(A6);
+RedBotSensor rSen = RedBotSensor(A7);
 
 // Instantiate the accelerometer. It can only be connected to pins A4
 //  and A5, since those are the I2C pins for this board.

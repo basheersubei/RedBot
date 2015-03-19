@@ -19,7 +19,7 @@ accelerometer to start the line following behavior.
 
 // Instantiate the motor control class. This only needs to be done once
 //  and indeed SHOULD only be done once!
-RedBotMotor motor;
+RedBotMotors motor;
 
 // Instantiate the sensors. Sensors can only be created for analog input
 //  pins; the Xbee software serial uses pins A0 and A1 and the
